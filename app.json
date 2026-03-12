@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "qc-kentei-chan",
+    "name": "QC検定ちゃん",
     "slug": "qc-kentei-chan",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,22 +9,35 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4A90D9"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.toyland.qckenteichan",
+      "buildNumber": "2",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#4A90D9",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "package": "com.toyland.qckenteichan"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "39f5a71c-0340-4f50-b052-ecf37ee7af79"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
