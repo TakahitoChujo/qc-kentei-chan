@@ -40,3 +40,9 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# unrelated files
+4E16444B-2CAB-4211-921F-63FB98BC68F6.jpg
+QC 2026-03-12 01-11-54/
+*.PNG
+image*.png
