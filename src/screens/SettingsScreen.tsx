@@ -88,7 +88,7 @@ export function SettingsScreen() {
               <Text style={styles.premiumDescription}>
                 全250問を解放 / 模擬試験モード / 広告非表示
               </Text>
-              <Text style={styles.premiumPrice}>¥480（買い切り）</Text>
+              <Text style={styles.premiumPrice}>¥400（買い切り）</Text>
               {isPurchasing && <ActivityIndicator color={Colors.premiumDark} style={{ marginTop: 4 }} />}
             </View>
           </TouchableOpacity>
